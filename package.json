@@ -1,0 +1,23 @@
+{
+  "name": "rms-selenium_js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyAWSYS/rms-selenium_js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyAWSYS/rms-selenium_js/issues"
+  },
+  "homepage": "https://github.com/AnthonyAWSYS/rms-selenium_js#readme",
+  "description": "",
+  "dependencies": {
+    "mocha": "^11.7.5",
+    "selenium-webdriver": "^4.41.0"
+  }
+}
