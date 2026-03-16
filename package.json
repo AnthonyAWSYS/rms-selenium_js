@@ -2,8 +2,9 @@
   "name": "rms-selenium_js",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "node test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   "homepage": "https://github.com/AnthonyAWSYS/rms-selenium_js#readme",
   "description": "",
   "dependencies": {
-    "mocha": "^11.7.5",
+    "dotenv": "^17.3.1",
     "selenium-webdriver": "^4.41.0"
+  },
+  "devDependencies": {
+    "mocha": "^11.3.0"
   }
 }
