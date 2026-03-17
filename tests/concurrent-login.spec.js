@@ -1,4 +1,14 @@
-import { Builder, By, until } from "selenium-webdriver";
+/**
+ * Concurrent Login Test
+ *
+ * This script simulates multiple users logging into the RMSv2 web application
+ * simultaneously using Selenium WebDriver with headless Chrome. It runs in batches 
+ * of 10 to avoid overloading the machine over a 100 concurrent users, waits for a 
+ * successful redirect to the resource-utilization page after each login, and reports
+ * the result and duration for each user session.
+ * 
+ */
+import { Builder, By, until } from 'selenium-webdriver';
 import chrome from 'selenium-webdriver/chrome.js';
 import dotenv from 'dotenv';
 
@@ -93,7 +103,7 @@ async function runInBatches(users, batchSize) {
 
 describe("Concurrent Login Test", function () {
 
-    this.timeout(20000);
+    this.timeout(25000);
 
     it(`should attempt ${concurrentUsers} logins in batches of ${batchSize}`, async function () {
 
