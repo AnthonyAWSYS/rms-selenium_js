@@ -29,5 +29,10 @@ Thumbs.db
 npm-debug.log*
 yarn-debug.log*
 
+# Logs & Reports
+reports/logs/excel/*
+reports/logs/html/*
+reports/screenshots/*
+
 # Testing
 .nyc_output/
